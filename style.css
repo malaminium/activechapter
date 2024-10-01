@@ -8,6 +8,15 @@
 html{
     scroll-behavior: smooth;
 }
+p {
+    font-size: 32pt;
+}
+h1 {
+    font-size: 32pt;
+}
+h2 {
+    font-size: 32pt;
+}
 
 .left{
     grid-column: 1;
@@ -42,7 +51,42 @@ html{
     grid-column: 4;
     text-align: left;
 }
-
+.ob4{
+    grid-column: 3/5;
+    grid-row:4;
+    
+}
+.txt4{
+    grid-column: 2;
+    text-align: right;
+}
+.ob5{
+    grid-column: 2/4;
+    grid-row:5;
+    
+}
+.txt5{
+    grid-column: 4;
+    text-align: left;
+}
+.ob6{
+    grid-column: 3/5;
+    grid-row:6;
+    
+}
+.txt6{
+    grid-column: 2;
+    text-align: right;
+}
+.ob7{
+    grid-column: 2/4;
+    grid-row:7;
+    
+}
+.txt7{
+    grid-column: 4;
+    text-align: left;
+}
 /* mobile */
 @media screen and (max-width: 600px){
     body{
